@@ -170,7 +170,7 @@ npm run dev
 wrangler dev
 ```
 
-开发服务器将在 `http://localhost:8787` 启动。
+开发服务器将在本地端口启动（默认8787）。
 
 ### 开发服务器特性
 
@@ -181,9 +181,9 @@ wrangler dev
 
 ### 访问开发环境
 
-- **主页面**: http://localhost:8787
-- **健康检查**: http://localhost:8787/health
-- **API 文档**: http://localhost:8787/api/docs
+- **主页面**: 本地开发服务器地址
+- **健康检查**: `/health` 端点
+- **API 文档**: `/api/docs` 端点
 
 ## 类型检查
 
@@ -421,9 +421,7 @@ wrangler tail --format=json | jq '.response_time'
 环境配置完成后，你可以：
 
 1. [查看项目结构](/dev/cloudflare/structure) 了解代码组织
-2. [学习路由配置](/dev/cloudflare/routing) 了解请求处理
-3. [阅读 API 设计](/dev/cloudflare/api-design) 了解接口规范
-4. [开始编写测试](/dev/cloudflare/testing) 确保代码质量
+2. [开始编写测试](/dev/cloudflare/testing) 确保代码质量
 
 ---
 

@@ -60,7 +60,7 @@ npm install
 npm run dev
 ```
 
-访问 http://localhost:3000 查看应用。
+访问本地开发服务器查看应用。
 
 ### 构建生产版本
 

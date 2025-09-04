@@ -66,9 +66,9 @@ npm run dev
 
 ### 验证安装
 
-- **后端**: http://localhost:8080/api/v1/health
-- **前端**: http://localhost:3000
-- **API文档**: http://localhost:8080/api/v1/docs
+- **后端**: 本地API服务健康检查端点
+- **前端**: 本地开发服务器
+- **API文档**: 本地API文档端点
 
 ## 📚 开发指南
 
@@ -79,53 +79,36 @@ npm run dev
 - [组件开发](/dev/frontend/components) - 组件设计和开发规范
 - [状态管理](/dev/frontend/state-management) - Pinia 状态管理
 - [路由配置](/dev/frontend/routing) - Vue Router 配置
-- [国际化](/dev/frontend/i18n) - 多语言支持
+- [国际化](/dev/frontend/internationalization) - 多语言支持
 - [PWA配置](/dev/frontend/pwa) - Progressive Web App
 - [测试指南](/dev/frontend/testing) - Vitest 测试
 - [构建部署](/dev/frontend/build-deploy) - 构建和部署流程
 
 ### 后端开发
-- [项目结构](/dev/backend/structure) - Go 项目结构
-- [技术栈](/dev/backend/tech-stack) - Go + Gin + GORM
-- [开发环境](/dev/backend/development) - 开发环境配置
 - [API设计](/dev/backend/api-design) - RESTful API 设计
 - [数据库设计](/dev/backend/database) - 数据库模型和迁移
-- [权限系统](/dev/backend/permissions) - RBAC 权限控制
-- [缓存策略](/dev/backend/caching) - Redis 缓存
-- [搜索引擎](/dev/backend/search) - 全文搜索集成
-- [向量数据库](/dev/backend/vector-db) - 向量搜索
-- [测试指南](/dev/backend/testing) - Go 测试
+- [权限系统](/dev/backend/rbac) - RBAC 权限控制
+- [缓存策略](/dev/backend/cache-strategy) - Redis 缓存
 - [部署配置](/dev/backend/deployment) - 生产环境部署
-- [Docker配置](/dev/backend/docker) - 容器化部署
 
 ### Cloudflare Worker
 - [项目结构](/dev/cloudflare/structure) - Worker 项目结构
-- [技术栈](/dev/cloudflare/tech-stack) - Cloudflare 技术栈
 - [开发环境](/dev/cloudflare/development) - Wrangler 开发环境
-- [API网关](/dev/cloudflare/api-gateway) - 请求路由和转发
 - [D1数据库](/dev/cloudflare/d1-database) - Cloudflare D1
-- [R2存储](/dev/cloudflare/r2-storage) - 对象存储
-- [AI服务](/dev/cloudflare/ai-services) - Cloudflare AI
-- [向量搜索](/dev/cloudflare/vector-search) - Vectorize 集成
 - [测试指南](/dev/cloudflare/testing) - Vitest 测试
-- [部署配置](/dev/cloudflare/deployment) - 生产环境部署
 
 ## 📖 文档维护
 
-- [文档结构](/dev/docs/structure) - 文档组织方式
 - [写作规范](/dev/docs/writing-guide) - 文档写作标准
-- [VitePress配置](/dev/docs/vitepress-config) - 文档站点配置
-- [部署流程](/dev/docs/deployment) - 文档部署
-- [贡献指南](/dev/docs/contributing) - 如何贡献文档
 
 ## 🔧 仓库管理
 
-- [分支策略](/dev/repo/branching) - Git 分支管理
-- [提交规范](/dev/repo/commits) - 提交信息规范
-- [PR流程](/dev/repo/pull-requests) - 代码审查流程
-- [版本管理](/dev/repo/versioning) - 版本发布流程
-- [CI/CD配置](/dev/repo/ci-cd) - 持续集成部署
-- [子模块管理](/dev/repo/submodules) - Git 子模块
+- [分支策略](/dev/repo/branch-strategy) - Git 分支管理
+- [提交规范](/dev/repo/commit-conventions) - 提交信息规范
+- [PR流程](/dev/repo/pr-workflow) - 代码审查流程
+- [版本管理](/dev/repo/version-management) - 版本发布流程
+- [CI/CD配置](/dev/repo/ci-cd-config) - 持续集成部署
+- [子模块管理](/dev/repo/submodule-management) - Git 子模块
 - [代码规范](/dev/repo/code-standards) - 代码风格指南
 
 ## 🧪 测试
@@ -156,9 +139,8 @@ npm run test
 
 我们欢迎所有形式的贡献！请查看：
 
-- [贡献指南](/dev/docs/contributing)
 - [代码规范](/dev/repo/code-standards)
-- [PR流程](/dev/repo/pull-requests)
+- [PR流程](/dev/repo/pr-workflow)
 
 ## 📞 联系方式
 

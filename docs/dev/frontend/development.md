@@ -54,7 +54,7 @@ VITE_DEV_MODE=true
 npm run dev
 ```
 
-开发服务器将在 http://localhost:3000 启动。
+开发服务器将在本地端口启动（默认3000）。
 
 ### 开发服务器特性
 

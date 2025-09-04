@@ -118,42 +118,26 @@ go test ./internal/handlers
 ### API设计
 
 - [RESTful API 设计原则](/dev/backend/api-design)
-- [路由配置](/dev/backend/routing)
-- [请求验证](/dev/backend/validation)
-- [错误处理](/dev/backend/error-handling)
-- [响应格式](/dev/backend/response-format)
 
 ### 数据库设计
 
 - [数据模型](/dev/backend/database)
-- [数据库迁移](/dev/backend/database#数据库迁移)
-- [ORM使用](/dev/backend/database#gorm-使用)
-- [查询优化](/dev/backend/database#查询优化)
 
 ### 权限系统
 
 - [RBAC权限控制](/dev/backend/rbac)
-- [JWT认证](/dev/backend/rbac#jwt认证)
-- [中间件](/dev/backend/rbac#认证中间件)
-- [权限验证](/dev/backend/rbac#权限检查工具)
 
 ### 缓存策略
 
 - [Redis缓存](/dev/backend/cache-strategy)
-- [缓存策略](/dev/backend/cache-strategy#缓存策略)
-- [缓存失效](/dev/backend/cache-strategy#缓存失效策略)
 
 ### 搜索引擎
 
-- [全文搜索](/dev/backend/fulltext-search)
-- [Meilisearch集成](/dev/backend/meilisearch)
-- [搜索优化](/dev/backend/search-optimization)
+- 全文搜索
 
 ### 向量数据库
 
-- [向量搜索](/dev/backend/vector-search)
-- [Qdrant集成](/dev/backend/qdrant)
-- [Embedding处理](/dev/backend/embedding)
+- 向量搜索
 
 ## 测试指南
 
@@ -279,10 +263,7 @@ JWT_EXPIRE_HOURS=24
 
 ### 生产环境配置
 
-- [Docker配置](/dev/backend/deployment#docker部署)
-- [环境变量](/dev/backend/deployment#环境配置)
-- [性能优化](/dev/backend/deployment#性能优化)
-- [安全配置](/dev/backend/deployment#安全配置)
+- [Docker配置](/dev/backend/deployment)
 
 ## 代码规范
 
@@ -349,16 +330,11 @@ chore: 更新依赖版本
 
 ### 常见问题
 
-- [数据库连接问题](/dev/backend/troubleshooting/database)
-- [Redis连接问题](/dev/backend/troubleshooting/redis)
-- [性能问题](/dev/backend/troubleshooting/performance)
-- [内存泄漏](/dev/backend/troubleshooting/memory)
+- 数据库连接问题
 
 ### 调试工具
 
-- [pprof性能分析](/dev/backend/debugging/pprof)
-- [日志分析](/dev/backend/debugging/logs)
-- [监控面板](/dev/backend/debugging/monitoring)
+- pprof性能分析
 
 ## 贡献指南
 

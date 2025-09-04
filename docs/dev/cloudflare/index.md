@@ -85,7 +85,7 @@ npm install
 npm run dev
 ```
 
-访问 http://localhost:8787 查看 Worker。
+访问本地开发服务器查看 Worker。
 
 ### 类型检查
 
@@ -110,52 +110,15 @@ npm run test:watch
 
 ### Worker 开发
 - [项目结构](/dev/cloudflare/structure) - 目录结构和文件组织
-- [技术栈](/dev/cloudflare/tech-stack) - Cloudflare 技术栈详解
 - [开发环境](/dev/cloudflare/development) - 环境配置和开发工具
-- [路由配置](/dev/cloudflare/routing) - 请求路由和处理器
-- [中间件开发](/dev/cloudflare/middleware) - 中间件设计和开发
-- [错误处理](/dev/cloudflare/error-handling) - 统一错误处理机制
+- [D1数据库](/dev/cloudflare/d1-database) - Cloudflare D1 使用指南
+- [测试指南](/dev/cloudflare/testing) - Vitest 测试框架
 
 ### 数据库管理
 - [D1 数据库](/dev/cloudflare/d1-database) - Cloudflare D1 使用指南
-- [Drizzle ORM](/dev/cloudflare/drizzle-orm) - 类型安全的数据库操作
-- [数据迁移](/dev/cloudflare/migrations) - 数据库迁移管理
-- [数据备份](/dev/cloudflare/backup) - 数据备份和恢复
-
-### AI 服务
-- [AI 模型集成](/dev/cloudflare/ai-services) - Cloudflare AI 服务
-- [聊天引擎](/dev/cloudflare/chat-engine) - AI 聊天功能开发
-- [向量搜索](/dev/cloudflare/vector-search) - Vectorize 集成
-- [知识库管理](/dev/cloudflare/knowledge-base) - AI 知识库
-
-### 存储服务
-- [R2 对象存储](/dev/cloudflare/r2-storage) - Cloudflare R2 使用
-- [文件上传](/dev/cloudflare/file-upload) - 文件上传处理
-- [缓存策略](/dev/cloudflare/caching) - 缓存优化策略
-
-### API 开发
-- [API 设计](/dev/cloudflare/api-design) - RESTful API 设计
-- [请求处理](/dev/cloudflare/request-handling) - 请求处理器开发
-- [响应格式](/dev/cloudflare/response-format) - 统一响应格式
-- [CORS 配置](/dev/cloudflare/cors) - 跨域资源共享
-
-### 安全机制
-- [Turnstile 验证](/dev/cloudflare/turnstile) - 人机验证
-- [API 认证](/dev/cloudflare/authentication) - API 密钥认证
-- [签名验证](/dev/cloudflare/signature) - 请求签名验证
-- [速率限制](/dev/cloudflare/rate-limiting) - 请求频率限制
 
 ### 测试指南
 - [单元测试](/dev/cloudflare/testing) - Vitest 测试框架
-- [集成测试](/dev/cloudflare/integration-testing) - 服务集成测试
-- [端到端测试](/dev/cloudflare/e2e-testing) - 完整流程测试
-- [性能测试](/dev/cloudflare/performance-testing) - 性能基准测试
-
-### 部署配置
-- [生产环境部署](/dev/cloudflare/deployment) - 生产环境配置
-- [环境变量管理](/dev/cloudflare/environment) - 环境变量配置
-- [监控和日志](/dev/cloudflare/monitoring) - 监控和日志配置
-- [CI/CD 流程](/dev/cloudflare/ci-cd) - 持续集成部署
 
 ## 核心功能
 

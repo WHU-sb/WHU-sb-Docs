@@ -2215,22 +2215,13 @@ docker-compose logs -f --since=1h app               # 查看最近1小时的日�
 ### 高级主题
 
 #### 系统架构
-- [微服务架构](/dev/backend/architecture#微服务设计) - 服务拆分和通信机制
-- [消息队列](/dev/backend/architecture#消息队列) - 异步处理和事件驱动
-- [分布式缓存](/dev/backend/architecture#分布式缓存) - 缓存集群和一致性
-- [负载均衡](/dev/backend/architecture#负载均衡) - 流量分发和故障转移
+- 微服务架构 - 服务拆分和通信机制
 
 #### 性能优化
-- [数据库优化](/dev/backend/performance#数据库优化) - 查询优化和索引策略
-- [缓存优化](/dev/backend/performance#缓存优化) - 缓存命中率和策略优化
-- [并发处理](/dev/backend/performance#并发处理) - 并发控制和资源管理
-- [监控指标](/dev/backend/performance#监控指标) - 性能监控和告警机制
+- 数据库优化 - 查询优化和索引策略
 
 #### 安全防护
-- [认证安全](/dev/backend/security#认证安全) - 密码安全和Token管理
-- [数据安全](/dev/backend/security#数据安全) - 数据加密和脱敏处理
-- [接口安全](/dev/backend/security#接口安全) - API安全防护和限流
-- [审计日志](/dev/backend/security#审计日志) - 操作审计和安全监控
+- 认证安全 - 密码安全和Token管理
 
 ## 🎯 开发最佳实践
 
